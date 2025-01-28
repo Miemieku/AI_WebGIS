@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
-
+});
 
 document.getElementById("searchButton").addEventListener("click", async function() {
     const query = document.getElementById("searchInput").value;
